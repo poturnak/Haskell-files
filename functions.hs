@@ -7,6 +7,10 @@ div: take the division without remainder (div 92 10 - returns 9)
 show: takes a value and presents it to us in the form of a string
 read: is the opposity of show; takes the string as input and identofies the type of itmn
 odd: checks if the integral number is odd
+zipWith: It takes a function and two lists as parameters and then joins the two lists by applying the function between corresponding elements.
+flip: Flip simply takes a function and returns a function that is like our original function, only the first two arguments are flipped
+map: takes a function and a list and applies that function to each item in list.
+takeWhile: It takes a predicate and a list and then goes from the beginning of the list and returns its elements while the predicate holds true
 
 =====LISTS=====
 ++ concatenates several lists of the same type
@@ -27,6 +31,7 @@ minimum: returns min value from the list
 sum: takes a list of numbers and returns the sum
 product: takes a list of numbers and returns their product
 elem: checks if the item is in the list
+foldl: folds a list into a number by applying the passed fuction
 
 =====RANGES=====
 cycle: takes a list and cycles it into infinite list; typically used with take
